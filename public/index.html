@@ -145,7 +145,7 @@
     document.getElementById("input").value = "";
     parentDiv.scrollTop = parentDiv.scrollHeight;
 
-    let res = await fetch("http://localhost:5000/chat", {
+    let res = await fetch("https://chatbot-gpt-hsl1.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
